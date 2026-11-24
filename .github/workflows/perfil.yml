@@ -1,0 +1,50 @@
+name: perfil
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # lunes 7:00 am CDMX: estilo y tema nuevos
+  push:
+    branches: [main]
+    paths: ["perfil/**"]    # editaste perfil.toml o un tema → regenera con la combinación de la semana
+  workflow_dispatch:
+    inputs:
+      layout:
+        description: "Estilo (vacío = el de la semana)"
+        type: choice
+        options: ["", agent, terminal, postal]
+        default: ""
+      tema:
+        description: "Tema (vacío = el de la semana)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: perfil
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Arma README.md y metro.svg
+        id: build
+        run: |
+          args=()
+          [ -n "${{ inputs.layout }}" ] && args+=(--layout "${{ inputs.layout }}")
+          [ -n "${{ inputs.tema }}" ] && args+=(--tema "${{ inputs.tema }}")
+          echo "msg=$(python perfil/build.py "${args[@]}")" >> "$GITHUB_OUTPUT"
+      - name: Commit si cambió algo
+        run: |
+          git diff --quiet -- README.md metro.svg && { echo "sin cambios"; exit 0; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md metro.svg
+          git commit -m "chore: perfil de la semana · ${{ steps.build.outputs.msg }}"
+          git push
