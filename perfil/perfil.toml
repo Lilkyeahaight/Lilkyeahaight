@@ -1,0 +1,96 @@
+# Única fuente de la información del perfil. Los 3 estilos del README salen de aquí.
+# Edita esto (hasta desde el cel) y la Action regenera README.md + metro.svg.
+
+[agent]
+name = "Lilkyeahaight"
+display_name = "Christian Pérez"
+model = "human-v1"
+role = "Chief Technology Officer"
+organization = "IT Green"
+description = [
+  "Invoke when operations need engineering, the business needs",
+  "technology, or the technology needs judgment. Turns the way a",
+  "company already works into systems that run on their own,",
+  "and AI into real operating capacity.",
+]
+tools = ["Odoo", "Python", "PostgreSQL", "TypeScript", "Next.js", "n8n", "Claude Code", "Coworkr"]
+location = "México 🇲🇽"
+status = "shipping"
+
+[mission]
+lines = [
+  "Build companies that are technologically capable,",
+  "not just technologically equipped.",
+]
+punchline = "Nobody should have to type the same thing twice."
+
+[capabilities]
+items = [
+  "ERP consulting & implementation (Odoo 19 / 20)",
+  "Software engineering & systems architecture",
+  "Agentic workflows & AI-assisted development",
+  "Business process automation & integrations",
+  "Technology strategy",
+]
+
+[protocol]
+flow = "Understand → Architect → Implement → Verify → Evolve"
+lines = ["Business first. Architecture second. Code last.", "The order is not negotiable."]
+
+[erp]
+lines = ["An ERP is not a pile of modules.", "It's the digital shape of how a company actually runs."]
+rules = [
+  "Understand the operation before configuring the system.",
+  "If Odoo already does it natively, don't rebuild it.",
+  "Never bend a business around a bad implementation.",
+]
+
+[doctrine]
+complexity = "belongs to engineering, never to the user"
+architecture = "answers the problem, not the trend"
+every_change = "[issue, readable commit, written lesson]"
+same_bug_twice = "not allowed"
+dark_mode = "not optional"
+
+[anti_friction]
+lines = [
+  "A person carrying data between two systems is a missing integration.",
+  "A process that lives in someone's memory is a missing automation.",
+  "A decision that needs manual digging is a missing data model.",
+]
+
+[ai]
+lines = [
+  "AI is not a feature. It's a new layer of capacity.",
+  "Use it where it sharpens judgment, removes friction",
+  "or multiplies what a team can ship. Never for the novelty.",
+]
+
+[boundaries]
+items = [
+  "No complexity without purpose.",
+  "No automation without understanding.",
+  "No AI without a use case.",
+  "No shipping without verification.",
+  "No bullshit commits.",
+]
+
+[runtime]
+whoami = ["Mechatronics Engineer", "Software Engineer", "CTO @ IT Green"]
+now = [
+  "shipping Odoo 20 modules",
+  "building agentic workflows",
+  "learning TypeScript agents with Mastra",
+  "playing Clash Royale at night",
+]
+uptime = "permanently curious"
+
+[system_prompt]
+lines = ["Understand deeply. Question the default.", "Build with judgment. Write it down. Keep evolving."]
+tagline = "Engineering with intent. Intelligence with purpose."
+
+[stack]
+badges = [
+  ["Odoo", "odoo"], ["Python", "python"], ["PostgreSQL", "postgresql"],
+  ["TypeScript", "typescript"], ["n8n", "n8n"], ["Docker", "docker"],
+]

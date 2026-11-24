@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<path d="M150 100 H960" stroke="#5C3A24" stroke-width="12" stroke-linecap="round" fill="none"/>
+<path d="M960 100 H995" stroke="#5C3A24" stroke-width="12" stroke-dasharray="1 10" stroke-linecap="round"/>
+<path d="M330 100 C330 190 330 190 385 190 H775 C830 190 830 190 830 100" stroke="#B26A35" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="62" cy="100" r="21" fill="#5C3A24" stroke="#FFFFFF" stroke-width="3"/><text x="62" y="105" text-anchor="middle" font-size="14" font-weight="800" fill="#FFFFFF">L1</text>
+<rect x="26.5" y="128" width="71" height="18" rx="9" fill="#5C3A24"/><text x="62" y="141" text-anchor="middle" font-size="10" font-weight="700" letter-spacing=".8" fill="#FFFFFF">BUSINESS</text>
+<circle cx="62" cy="190" r="21" fill="#B26A35" stroke="#FFFFFF" stroke-width="3"/><text x="62" y="195" text-anchor="middle" font-size="14" font-weight="800" fill="#FFFFFF">L2</text>
+<rect x="18.0" y="218" width="88" height="18" rx="9" fill="#B26A35"/><text x="62" y="231" text-anchor="middle" font-size="10" font-weight="700" letter-spacing=".8" fill="#FFFFFF">ENGINEERING</text>
+<line x1="190" y1="100" x2="190" y2="54" stroke="#5C3A24" stroke-width="2.5"/>
+<rect x="128.0" y="35" width="124" height="29" rx="14.5" fill="#5C3A24"/>
+<text x="190" y="54.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">🔍 Understand</text>
+<line x1="330" y1="100" x2="330" y2="54" stroke="#5C3A24" stroke-width="2.5"/>
+<rect x="271.5" y="35" width="117" height="29" rx="14.5" fill="#5C3A24"/>
+<text x="330" y="54.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">📐 Architect</text>
+<line x1="830" y1="100" x2="830" y2="54" stroke="#5C3A24" stroke-width="2.5"/>
+<rect x="790.5" y="35" width="79" height="29" rx="14.5" fill="#5C3A24"/>
+<text x="830" y="54.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">🚀 Ship</text>
+<line x1="935" y1="100" x2="935" y2="54" stroke="#5C3A24" stroke-width="2.5"/>
+<rect x="888.0" y="35" width="94" height="29" rx="14.5" fill="#5C3A24"/>
+<text x="935" y="54.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">🌱 Evolve</text>
+<line x1="440" y1="190" x2="440" y2="240" stroke="#B26A35" stroke-width="2.5"/>
+<rect x="378.0" y="225" width="124" height="29" rx="14.5" fill="#B26A35"/>
+<text x="440" y="244.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">⚙️ Implement</text>
+<line x1="545" y1="190" x2="545" y2="280" stroke="#B26A35" stroke-width="2.5"/>
+<rect x="498.0" y="265" width="94" height="29" rx="14.5" fill="#B26A35"/>
+<text x="545" y="284.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">🚧 Verify</text>
+<line x1="640" y1="190" x2="640" y2="240" stroke="#B26A35" stroke-width="2.5"/>
+<rect x="604.5" y="225" width="71" height="29" rx="14.5" fill="#B26A35"/>
+<text x="640" y="244.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">🔧 Fix</text>
+<line x1="735" y1="190" x2="735" y2="280" stroke="#B26A35" stroke-width="2.5"/>
+<rect x="688.0" y="265" width="94" height="29" rx="14.5" fill="#B26A35"/>
+<text x="735" y="284.5" text-anchor="middle" font-size="13.5" font-weight="600" fill="#FFFFFF">✅ Verify</text>
+<circle cx="190" cy="100" r="10" fill="#FFFFFF" stroke="#5C3A24" stroke-width="5"/>
+<circle cx="330" cy="100" r="16" fill="#FFFFFF" stroke="#8B949E" stroke-width="4"/><circle cx="330" cy="100" r="6" fill="#5C3A24"/>
+<circle cx="830" cy="100" r="16" fill="#FFFFFF" stroke="#8B949E" stroke-width="4"/><circle cx="830" cy="100" r="6" fill="#5C3A24"/>
+<circle cx="935" cy="100" r="10" fill="#FFFFFF" stroke="#5C3A24" stroke-width="5"/>
+<circle cx="440" cy="190" r="10" fill="#FFFFFF" stroke="#B26A35" stroke-width="5"/>
+<circle cx="545" cy="190" r="10" fill="#FFFFFF" stroke="#B26A35" stroke-width="5"/>
+<path d="M541 186 L549 194 M549 186 L541 194" stroke="#B26A35" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="640" cy="190" r="10" fill="#FFFFFF" stroke="#B26A35" stroke-width="5"/>
+<circle cx="735" cy="190" r="10" fill="#FFFFFF" stroke="#B26A35" stroke-width="5"/>
+</svg>
